@@ -1,0 +1,1886 @@
+
+
+/* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* insert styles here */
+}
+
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    /* insert styles here */
+}
+
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    /* insert styles here */
+}
+
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    /* insert styles here */
+}
+
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    /* insert styles here */
+}
+
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    /* insert styles here */
+}
+
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* insert styles here */
+}
+
+/* (768x1024) iPad 1 & 2, Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* insert styles here */
+}
+
+/* (1024x768) iPad 1 & 2, Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* insert styles here */
+}
+
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+    /* insert styles here */
+}
+
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    .lang,.email,.phone{
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    .lang{
+        font-style: italic;
+        margin-left: 10%;
+    }
+    .nav-menu{
+        height: 150px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0.5;
+        background-color: #000 !important;
+        position: fixed;
+    }
+    .menu-img{
+        margin-left: 10%;
+        z-index: 9999;
+    }
+    .menu-item{
+        font-size: 25px;
+        font-family: Roboto;
+        color: white;
+    }
+    .menu-item:hover{
+        text-decoration: none;
+    }
+    .menu-spacer{
+        width: 25%;
+    }
+    .carousel-item{
+        height: 750px;
+    }
+    .carousel-item > img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel-indicators{
+        top: 88%;
+    }
+    .inscribete-container{
+        top: 80%;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: #98c5ed !important;
+        color: white;
+    }
+    .inscribete-span{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+        width: 25%;
+    }
+    .carousel {
+        margin-bottom: 7rem;
+    }
+    .inscribete-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #98c5ed;
+        color: white;
+        border: 1px solid #89b1d5;
+        border-style: solid;
+        height: 40px;
+    }
+    .inscribete-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-entra,.btn-entra:hover {
+        color: #fff;
+        background-color: #7293b1;
+        border-color: #7293b1;
+    }
+    .inscribete-novo{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+    }
+    .btn-inscribete,.btn-inscribete:hover {
+        color: #fff;
+        background-color: #374856;
+        border-color: #374856;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .novo-container{
+        background-color: #5b778f;
+        width: 50%;
+        margin-left: 15%;
+        padding: 31px;
+        margin-right: -16px;
+    }
+    footer{
+        background-color: #d1cfcf;
+    }
+    .contact-text,.contact-text:hover{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Roboto;
+    }
+    .bottom-footer{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        left: 25%;
+        top: 27px;
+        margin-left: 6%;
+        color: #d1cfcf;
+    }
+    .bottom-concello{
+        float: right;;
+    }
+    footer .container{
+        max-width: 90%;
+    }
+    .contacto-margin{
+        margin-left: 18%;
+    }
+    .content-h4{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .emprego-divider{
+        border-top: 1px solid #9c3f49;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .formacion-divider{
+        border-top: 1px solid #d2d3d3;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .oferta-emprego{
+        background-color: #9c3f49;
+        color: white;
+        width: 100%;
+    }
+    .oferta-emprego span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+    }
+    .oferta-emprego span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #e4e5e8;
+        width: 50%;
+        color: black;
+    }
+    .oferta-desc{
+        color: white;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .oferta-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .content.container{
+        max-width: 90%;
+    }
+
+
+    .oferta-formacion{
+        background-color: #e4e5e8;
+        color: white;
+        width: 70%;
+    }
+    .oferta-formacion span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+        color: #67666b;
+    }
+    .oferta-formacion span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #9c9ba0;
+        width: 50%;
+        color: white;
+    }
+    .formacion-desc{
+        color: #43525f;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .formacion-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+        color: #43525f;
+    }
+
+    .boletin-tag {
+        background-color: #e4e5e8;
+        height: 300px;
+    }
+
+    .boletin-tag span:first-child{
+        background-color: #ac880b;
+        color: white;
+        font-size: 25px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        width: 50%;
+        position: relative;
+        top: 25%;
+    }
+
+    .newsletter-container{
+        background-color: #ac880b;
+    }
+
+    .newsletter-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #ac880b;
+        color: white;
+        border: 1px solid #564405;
+        border-style: solid;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .newsletter-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-subscribir,.btn-subscribir:hover {
+        color: #fff !important;
+        background-color: #564405;
+        border-color: #564405;
+    }
+    .newsletter-container span{
+        display: block;
+        font-family: Roboto;
+        font-size: 18px;
+        text-align: left;
+        color: white;
+        padding-right: 64px;
+        padding-left: 64px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .ponteenmarcha-img img{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .social-container{
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+    }
+    .flaticon-facebook:before,.flaticon-boton-de-logo-del-twitter:before,.flaticon-logo-linkedin:before,.flaticon-google-plus:before,.flaticon-youtube:before,.flaticon-podcast-boton-circular:before {
+        font-size: 42px;
+    }
+    .flaticon-marcador-de-posicion:before {
+        font-size: 42px;
+    }
+    .top-header{
+        height: 65px;
+    }
+}
+
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    .lang,.email,.phone{
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    .lang{
+        font-style: italic;
+        margin-left: 10%;
+    }
+    .nav-menu{
+        height: 150px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0.5;
+        background-color: #000 !important;
+        position: fixed;
+    }
+    .menu-img{
+        margin-left: 10%;
+        z-index: 9999;
+    }
+    .menu-item{
+        font-size: 25px;
+        font-family: Roboto;
+        color: white;
+    }
+    .menu-item:hover{
+        text-decoration: none;
+    }
+    .menu-spacer{
+        width: 25%;
+    }
+    .carousel-item{
+        height: 750px;
+    }
+    .carousel-item > img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel-indicators{
+        top: 88%;
+    }
+    .inscribete-container{
+        top: 80%;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: #98c5ed !important;
+        color: white;
+    }
+    .inscribete-span{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+        width: 25%;
+    }
+    .carousel {
+        margin-bottom: 7rem;
+    }
+    .inscribete-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #98c5ed;
+        color: white;
+        border: 1px solid #89b1d5;
+        border-style: solid;
+        height: 40px;
+    }
+    .inscribete-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-entra,.btn-entra:hover {
+        color: #fff;
+        background-color: #7293b1;
+        border-color: #7293b1;
+    }
+    .inscribete-novo{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+    }
+    .btn-inscribete,.btn-inscribete:hover {
+        color: #fff;
+        background-color: #374856;
+        border-color: #374856;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .novo-container{
+        background-color: #5b778f;
+        width: 50%;
+        margin-left: 15%;
+        padding: 31px;
+        margin-right: -16px;
+    }
+    footer{
+        background-color: #d1cfcf;
+    }
+    .contact-text,.contact-text:hover{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Roboto;
+    }
+    .bottom-footer{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        left: 25%;
+        top: 27px;
+        margin-left: 6%;
+        color: #d1cfcf;
+    }
+    .bottom-concello{
+        float: right;;
+    }
+    footer .container{
+        max-width: 90%;
+    }
+    .contacto-margin{
+        margin-left: 18%;
+    }
+    .content-h4{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .emprego-divider{
+        border-top: 1px solid #9c3f49;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .formacion-divider{
+        border-top: 1px solid #d2d3d3;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .oferta-emprego{
+        background-color: #9c3f49;
+        color: white;
+        width: 100%;
+    }
+    .oferta-emprego span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+    }
+    .oferta-emprego span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #e4e5e8;
+        width: 50%;
+        color: black;
+    }
+    .oferta-desc{
+        color: white;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .oferta-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .content.container{
+        max-width: 90%;
+    }
+
+
+    .oferta-formacion{
+        background-color: #e4e5e8;
+        color: white;
+        width: 70%;
+    }
+    .oferta-formacion span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+        color: #67666b;
+    }
+    .oferta-formacion span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #9c9ba0;
+        width: 50%;
+        color: white;
+    }
+    .formacion-desc{
+        color: #43525f;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .formacion-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+        color: #43525f;
+    }
+
+    .boletin-tag {
+        background-color: #e4e5e8;
+        height: 300px;
+    }
+
+    .boletin-tag span:first-child{
+        background-color: #ac880b;
+        color: white;
+        font-size: 25px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        width: 50%;
+        position: relative;
+        top: 25%;
+    }
+
+    .newsletter-container{
+        background-color: #ac880b;
+    }
+
+    .newsletter-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #ac880b;
+        color: white;
+        border: 1px solid #564405;
+        border-style: solid;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .newsletter-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-subscribir,.btn-subscribir:hover {
+        color: #fff !important;
+        background-color: #564405;
+        border-color: #564405;
+    }
+    .newsletter-container span{
+        display: block;
+        font-family: Roboto;
+        font-size: 18px;
+        text-align: left;
+        color: white;
+        padding-right: 64px;
+        padding-left: 64px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .ponteenmarcha-img img{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .social-container{
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+    }
+    .flaticon-facebook:before,.flaticon-boton-de-logo-del-twitter:before,.flaticon-logo-linkedin:before,.flaticon-google-plus:before,.flaticon-youtube:before,.flaticon-podcast-boton-circular:before {
+        font-size: 42px;
+    }
+    .flaticon-marcador-de-posicion:before {
+        font-size: 42px;
+    }
+    .top-header{
+        height: 65px;
+    }
+}
+
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    .lang,.email,.phone{
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    .lang{
+        font-style: italic;
+        margin-left: 10%;
+    }
+    .nav-menu{
+        height: 150px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0.5;
+        background-color: #000 !important;
+        position: fixed;
+    }
+    .menu-img{
+        margin-left: 10%;
+        z-index: 9999;
+    }
+    .menu-item{
+        font-size: 25px;
+        font-family: Roboto;
+        color: white;
+    }
+    .menu-item:hover{
+        text-decoration: none;
+    }
+    .menu-spacer{
+        width: 25%;
+    }
+    .carousel-item{
+        height: 750px;
+    }
+    .carousel-item > img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel-indicators{
+        top: 88%;
+    }
+    .inscribete-container{
+        top: 80%;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: #98c5ed !important;
+        color: white;
+    }
+    .inscribete-span{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+        width: 25%;
+    }
+    .carousel {
+        margin-bottom: 7rem;
+    }
+    .inscribete-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #98c5ed;
+        color: white;
+        border: 1px solid #89b1d5;
+        border-style: solid;
+        height: 40px;
+    }
+    .inscribete-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-entra,.btn-entra:hover {
+        color: #fff;
+        background-color: #7293b1;
+        border-color: #7293b1;
+    }
+    .inscribete-novo{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+    }
+    .btn-inscribete,.btn-inscribete:hover {
+        color: #fff;
+        background-color: #374856;
+        border-color: #374856;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .novo-container{
+        background-color: #5b778f;
+        width: 50%;
+        margin-left: 15%;
+        padding: 31px;
+        margin-right: -16px;
+    }
+    footer{
+        background-color: #d1cfcf;
+    }
+    .contact-text,.contact-text:hover{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Roboto;
+    }
+    .bottom-footer{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        left: 25%;
+        top: 27px;
+        margin-left: 6%;
+        color: #d1cfcf;
+    }
+    .bottom-concello{
+        float: right;;
+    }
+    footer .container{
+        max-width: 90%;
+    }
+    .contacto-margin{
+        margin-left: 18%;
+    }
+    .content-h4{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .emprego-divider{
+        border-top: 1px solid #9c3f49;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .formacion-divider{
+        border-top: 1px solid #d2d3d3;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .oferta-emprego{
+        background-color: #9c3f49;
+        color: white;
+        width: 100%;
+    }
+    .oferta-emprego span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+    }
+    .oferta-emprego span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #e4e5e8;
+        width: 50%;
+        color: black;
+    }
+    .oferta-desc{
+        color: white;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .oferta-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .content.container{
+        max-width: 90%;
+    }
+
+
+    .oferta-formacion{
+        background-color: #e4e5e8;
+        color: white;
+        width: 70%;
+    }
+    .oferta-formacion span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+        color: #67666b;
+    }
+    .oferta-formacion span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #9c9ba0;
+        width: 50%;
+        color: white;
+    }
+    .formacion-desc{
+        color: #43525f;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .formacion-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+        color: #43525f;
+    }
+
+    .boletin-tag {
+        background-color: #e4e5e8;
+        height: 300px;
+    }
+
+    .boletin-tag span:first-child{
+        background-color: #ac880b;
+        color: white;
+        font-size: 25px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        width: 50%;
+        position: relative;
+        top: 25%;
+    }
+
+    .newsletter-container{
+        background-color: #ac880b;
+    }
+
+    .newsletter-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #ac880b;
+        color: white;
+        border: 1px solid #564405;
+        border-style: solid;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .newsletter-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-subscribir,.btn-subscribir:hover {
+        color: #fff !important;
+        background-color: #564405;
+        border-color: #564405;
+    }
+    .newsletter-container span{
+        display: block;
+        font-family: Roboto;
+        font-size: 18px;
+        text-align: left;
+        color: white;
+        padding-right: 64px;
+        padding-left: 64px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .ponteenmarcha-img img{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .social-container{
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+    }
+    .flaticon-facebook:before,.flaticon-boton-de-logo-del-twitter:before,.flaticon-logo-linkedin:before,.flaticon-google-plus:before,.flaticon-youtube:before,.flaticon-podcast-boton-circular:before {
+        font-size: 42px;
+    }
+    .flaticon-marcador-de-posicion:before {
+        font-size: 42px;
+    }
+    .top-header{
+        height: 65px;
+    }
+}
+
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+    .lang,.email,.phone{
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    .lang{
+        font-style: italic;
+        margin-left: 10%;
+    }
+    .nav-menu{
+        height: 150px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0.5;
+        background-color: #000 !important;
+        position: fixed;
+    }
+    .menu-img{
+        margin-left: 10%;
+        z-index: 9999;
+    }
+    .menu-item{
+        font-size: 25px;
+        font-family: Roboto;
+        color: white;
+    }
+    .menu-item:hover{
+        text-decoration: none;
+    }
+    .menu-spacer{
+        width: 25%;
+    }
+    .carousel-item{
+        height: 750px;
+    }
+    .carousel-item > img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel-indicators{
+        top: 88%;
+    }
+    .inscribete-container{
+        top: 80%;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: #98c5ed !important;
+        color: white;
+    }
+    .inscribete-span{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+        width: 25%;
+    }
+    .carousel {
+        margin-bottom: 7rem;
+    }
+    .inscribete-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #98c5ed;
+        color: white;
+        border: 1px solid #89b1d5;
+        border-style: solid;
+        height: 40px;
+    }
+    .inscribete-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-entra,.btn-entra:hover {
+        color: #fff;
+        background-color: #7293b1;
+        border-color: #7293b1;
+    }
+    .inscribete-novo{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+    }
+    .btn-inscribete,.btn-inscribete:hover {
+        color: #fff;
+        background-color: #374856;
+        border-color: #374856;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .novo-container{
+        background-color: #5b778f;
+        width: 50%;
+        margin-left: 15%;
+        padding: 31px;
+        margin-right: -16px;
+    }
+    footer{
+        background-color: #d1cfcf;
+    }
+    .contact-text,.contact-text:hover{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Roboto;
+    }
+    .bottom-footer{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        left: 25%;
+        top: 27px;
+        margin-left: 6%;
+        color: #d1cfcf;
+    }
+    .bottom-concello{
+        float: right;;
+    }
+    footer .container{
+        max-width: 90%;
+    }
+    .contacto-margin{
+        margin-left: 18%;
+    }
+    .content-h4{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .emprego-divider{
+        border-top: 1px solid #9c3f49;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .formacion-divider{
+        border-top: 1px solid #d2d3d3;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .oferta-emprego{
+        background-color: #9c3f49;
+        color: white;
+        width: 100%;
+    }
+    .oferta-emprego span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+    }
+    .oferta-emprego span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #e4e5e8;
+        width: 50%;
+        color: black;
+    }
+    .oferta-desc{
+        color: white;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .oferta-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .content.container{
+        max-width: 90%;
+    }
+
+
+    .oferta-formacion{
+        background-color: #e4e5e8;
+        color: white;
+        width: 70%;
+    }
+    .oferta-formacion span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+        color: #67666b;
+    }
+    .oferta-formacion span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #9c9ba0;
+        width: 50%;
+        color: white;
+    }
+    .formacion-desc{
+        color: #43525f;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .formacion-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+        color: #43525f;
+    }
+
+    .boletin-tag {
+        background-color: #e4e5e8;
+        height: 300px;
+    }
+
+    .boletin-tag span:first-child{
+        background-color: #ac880b;
+        color: white;
+        font-size: 25px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        width: 50%;
+        position: relative;
+        top: 25%;
+    }
+
+    .newsletter-container{
+        background-color: #ac880b;
+    }
+
+    .newsletter-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #ac880b;
+        color: white;
+        border: 1px solid #564405;
+        border-style: solid;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .newsletter-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-subscribir,.btn-subscribir:hover {
+        color: #fff !important;
+        background-color: #564405;
+        border-color: #564405;
+    }
+    .newsletter-container span{
+        display: block;
+        font-family: Roboto;
+        font-size: 18px;
+        text-align: left;
+        color: white;
+        padding-right: 64px;
+        padding-left: 64px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .ponteenmarcha-img img{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .social-container{
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+    }
+    .flaticon-facebook:before,.flaticon-boton-de-logo-del-twitter:before,.flaticon-logo-linkedin:before,.flaticon-google-plus:before,.flaticon-youtube:before,.flaticon-podcast-boton-circular:before {
+        font-size: 42px;
+    }
+    .flaticon-marcador-de-posicion:before {
+        font-size: 42px;
+    }
+    .top-header{
+        height: 65px;
+    }
+}
+
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    .lang,.email,.phone{
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    .lang{
+        font-style: italic;
+        margin-left: 10%;
+    }
+    .nav-menu{
+        height: 150px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0.5;
+        background-color: #000 !important;
+        position: fixed;
+    }
+    .menu-img{
+        margin-left: 10%;
+        z-index: 9999;
+    }
+    .menu-item{
+        font-size: 25px;
+        font-family: Roboto;
+        color: white;
+    }
+    .menu-item:hover{
+        text-decoration: none;
+    }
+    .menu-spacer{
+        width: 25%;
+    }
+    .carousel-item{
+        height: 750px;
+    }
+    .carousel-item > img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel-indicators{
+        top: 88%;
+    }
+    .inscribete-container{
+        top: 80%;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: #98c5ed !important;
+        color: white;
+    }
+    .inscribete-span{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+        width: 25%;
+    }
+    .carousel {
+        margin-bottom: 7rem;
+    }
+    .inscribete-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #98c5ed;
+        color: white;
+        border: 1px solid #89b1d5;
+        border-style: solid;
+        height: 40px;
+    }
+    .inscribete-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-entra,.btn-entra:hover {
+        color: #fff;
+        background-color: #7293b1;
+        border-color: #7293b1;
+    }
+    .inscribete-novo{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+    }
+    .btn-inscribete,.btn-inscribete:hover {
+        color: #fff;
+        background-color: #374856;
+        border-color: #374856;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .novo-container{
+        background-color: #5b778f;
+        width: 50%;
+        margin-left: 15%;
+        padding: 31px;
+        margin-right: -16px;
+    }
+    footer{
+        background-color: #d1cfcf;
+    }
+    .contact-text,.contact-text:hover{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Roboto;
+    }
+    .bottom-footer{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        left: 25%;
+        top: 27px;
+        margin-left: 6%;
+        color: #d1cfcf;
+    }
+    .bottom-concello{
+        float: right;;
+    }
+    footer .container{
+        max-width: 90%;
+    }
+    .contacto-margin{
+        margin-left: 18%;
+    }
+    .content-h4{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .emprego-divider{
+        border-top: 1px solid #9c3f49;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .formacion-divider{
+        border-top: 1px solid #d2d3d3;
+        margin: auto;
+        width: 70%;
+        margin-left: 0px;
+    }
+    .oferta-emprego{
+        background-color: #9c3f49;
+        color: white;
+        width: 70%;
+    }
+    .oferta-emprego span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+    }
+    .oferta-emprego span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #e4e5e8;
+        width: 50%;
+        color: black;
+    }
+    .oferta-desc{
+        color: white;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .oferta-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .content.container{
+        max-width: 90%;
+    }
+
+
+    .oferta-formacion{
+        background-color: #e4e5e8;
+        color: white;
+        width: 70%;
+    }
+    .oferta-formacion span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+        color: #67666b;
+    }
+    .oferta-formacion span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #9c9ba0;
+        width: 50%;
+        color: white;
+    }
+    .formacion-desc{
+        color: #43525f;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .formacion-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+        color: #43525f;
+    }
+
+    .boletin-tag {
+        background-color: #e4e5e8;
+        height: 300px;
+    }
+
+    .boletin-tag span:first-child{
+        background-color: #ac880b;
+        color: white;
+        font-size: 25px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        width: 50%;
+        position: relative;
+        top: 25%;
+    }
+
+    .newsletter-container{
+        background-color: #ac880b;
+    }
+
+    .newsletter-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #ac880b;
+        color: white;
+        border: 1px solid #564405;
+        border-style: solid;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .newsletter-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-subscribir,.btn-subscribir:hover {
+        color: #fff !important;
+        background-color: #564405;
+        border-color: #564405;
+    }
+    .newsletter-container span{
+        display: block;
+        font-family: Roboto;
+        font-size: 18px;
+        text-align: left;
+        color: white;
+        padding-right: 64px;
+        padding-left: 64px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+    .ponteenmarcha-img img{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .social-container{
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+    }
+    .flaticon-facebook:before,.flaticon-boton-de-logo-del-twitter:before,.flaticon-logo-linkedin:before,.flaticon-google-plus:before,.flaticon-youtube:before,.flaticon-podcast-boton-circular:before {
+        font-size: 42px;
+    }
+    .flaticon-marcador-de-posicion:before {
+        font-size: 42px;
+    }
+    .top-header{
+        height: 65px;
+    }
+}
+
+/* (1600x900) HD+ Display */
+@media  screen and (max-width: 1600px) {
+    .lang,.email,.phone{
+        font-size: 16px;
+        font-family: Roboto;
+    }
+    .lang{
+        font-style: italic;
+        margin-left: 10%;
+    }
+    .nav-menu{
+        height: 150px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0.5;
+        background-color: #000 !important;
+        position: fixed;
+    }
+    .menu-img{
+        margin-left: 10%;
+        z-index: 9999;
+    }
+    .menu-item{
+        font-size: 25px;
+        font-family: Roboto;
+        color: white;
+    }
+    .menu-item:hover{
+        text-decoration: none;
+    }
+    .menu-spacer{
+        width: 25%;
+    }
+    .carousel-item{
+        height: 750px;
+    }
+    .carousel-item > img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .carousel-indicators{
+        top: 88%;
+    }
+    .inscribete-container{
+        top: 120%;
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        background-color: #98c5ed !important;
+        color: white;
+    }
+    .inscribete-span{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: -39px;
+        margin-left: 3%;
+        width: 25%;
+    }
+    .carousel {
+        margin-bottom: 7rem;
+    }
+    .inscribete-container input{
+        margin-right: 12px;
+        border-radius: 5px;
+        background-color: #98c5ed;
+        color: white;
+        border: 1px solid #89b1d5;
+        border-style: solid;
+        height: 40px;
+        width: 12%;
+    }
+    .inscribete-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-entra,.btn-entra:hover {
+        color: #fff;
+        background-color: #7293b1;
+        border-color: #7293b1;
+    }
+    .inscribete-novo{
+        font-size: 19px;
+        font-family: Roboto;
+        margin-right: 15px;
+        margin-left: 8%;
+    }
+    .btn-inscribete,.btn-inscribete:hover {
+        color: #fff;
+        background-color: #374856;
+        border-color: #374856;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .novo-container{
+        background-color: #5b778f;
+        width: 40%;
+        margin-left: 6%;
+        padding: 31px;
+        margin-right: -16px;
+    }
+    footer{
+        background-color: #d1cfcf;
+    }
+    .contact-text,.contact-text:hover{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: Roboto;
+    }
+    .bottom-footer{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        left: 25%;
+        top: 27px;
+        margin-left: 6%;
+        color: #d1cfcf;
+    }
+    .bottom-concello{
+        float: right;;
+    }
+    footer .container{
+        max-width: 90%;
+    }
+    .contacto-margin{
+        margin-left: 18%;
+    }
+    .content-h4{
+        text-align: justify;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+    .emprego-divider{
+        border-top: 1px solid #9c3f49;
+        margin: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .formacion-divider{
+        border-top: 1px solid #d2d3d3;
+        margin: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .oferta-emprego{
+        background-color: #9c3f49;
+        color: white;
+        width: 100%;
+    }
+    .oferta-emprego span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+    }
+    .oferta-emprego span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #e4e5e8;
+        width: 50%;
+        color: black;
+    }
+    .oferta-desc{
+        color: white;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .oferta-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+    .content.container{
+        max-width: 90%;
+    }
+
+
+    .oferta-formacion{
+        background-color: #e4e5e8;
+        color: white;
+        width: 100%;
+    }
+    .oferta-formacion span:first-child{
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: italic;
+        display: block;
+        text-align: left;
+        padding: 15px;
+        color: #67666b;
+    }
+    .oferta-formacion span:nth-child(2){
+        font-family: Roboto;
+        font-size: 18px;
+        display: block;
+        text-align: left;
+        background-color: #9c9ba0;
+        width: 50%;
+        color: white;
+    }
+    .formacion-desc{
+        color: #43525f;
+        font-size: 22px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        margin-bottom: 0rem;
+    }
+    .formacion-location{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 10px;
+        color: #43525f;
+    }
+
+    .boletin-tag {
+        background-color: #e4e5e8;
+        height: 300px;
+    }
+
+    .boletin-tag span:first-child{
+        background-color: #ac880b;
+        color: white;
+        font-size: 25px;
+        font-family: Roboto;
+        text-align: left;
+        display: block;
+        width: 70%;
+        position: relative;
+        top: 25%;
+    }
+
+    .newsletter-container{
+        background-color: #ac880b;
+    }
+
+    .newsletter-container input{
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: #ac880b;
+        color: white;
+        border: 1px solid #564405;
+        border-style: solid;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    .newsletter-container input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Roboto;
+        margin-left: 15px;
+    }
+    .btn-subscribir,.btn-subscribir:hover {
+        color: #fff !important;
+        background-color: #564405;
+        border-color: #564405;
+    }
+    .newsletter-container span{
+        display: block;
+        font-family: Roboto;
+        font-size: 18px;
+        text-align: left;
+        color: white;
+        padding-right: 16px;
+        padding-left: 28px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .ponteenmarcha-img img{
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .social-container{
+
+        position: absolute;
+        right: 5%;
+        top: 50%;
+
+    }
+    .flaticon-facebook:before,.flaticon-boton-de-logo-del-twitter:before,.flaticon-logo-linkedin:before,.flaticon-google-plus:before,.flaticon-youtube:before,.flaticon-podcast-boton-circular:before {
+        font-size: 42px;
+    }
+    .flaticon-marcador-de-posicion:before {
+        font-size: 42px;
+    }
+    .top-header{
+        height: 65px;
+    }
+}
